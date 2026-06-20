@@ -1,0 +1,26 @@
+{
+  "name": "property_lister",
+  "version": "1.0.0",
+  "description": "removing brokers",
+  "homepage": "https://github.com/sarthak-nande/property_lister#readme",
+  "bugs": {
+    "url": "https://github.com/sarthak-nande/property_lister/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthak-nande/property_lister.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
