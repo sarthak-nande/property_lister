@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 
+// Function to connect to MongoDB
 async function connectDB() {
     try {
         const url = process.env.MONGO_URI;
@@ -15,6 +16,7 @@ async function connectDB() {
     }
     catch (error) {
         console.error(`Error connecting to MongoDB: ${error.message}`);
+        process.exit(1); // Exit process with failure
     }
 }
 
