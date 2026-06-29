@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { userRegistrationSchema, validateUserRegistration } from '../services/user/user.validation.js';
+import { userRegistrationSchema, validateUserRegistration } from '../services/user/zod/user.validation.js';
 
 describe('user registration validation', () => {
   const validPayload = {
