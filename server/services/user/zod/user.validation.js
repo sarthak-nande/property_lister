@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-export const userRoleValues = ['RENTER', 'BROKER', 'OWNER', 'ADMIN'];
+export const userRoleValues = ['RENTER', 'BROKER', 'OWNER'];
 
 const nameSchema = z
   .string()
